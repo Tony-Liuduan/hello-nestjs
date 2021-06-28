@@ -192,3 +192,15 @@ app.use(async (_ctx, next) => {
 
 app.listen();
 ```
+
+## 拦截器
+
+* @Injectable()
+  * implements NestInterceptor
+* @UseInterceptors(new LoggingInterceptor())
+  * 导入 @Injectable() 装饰的 class
+
+## 管道
+
+* @UsePipes(new JoiValidationPipe(createCatSchema))
+  * 具有 @Injectable() 装饰器的类。管道应实现 PipeTransform 接口
