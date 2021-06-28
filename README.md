@@ -1,5 +1,9 @@
 # NestJs
 
+1. node 版的 angular
+2. 底层基于 express (就想用 koa2 怎么办 ??)
+3. typescript
+
 ## 设计模式
 
 * 控制反转（Inversion of Control，IoC）
